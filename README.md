@@ -2,7 +2,7 @@
 
 Here is the [Wikipedia-Link Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
-This is a practice project for learning Python and git/ github. It possible includes string manipulations, handling of list and lists of lists, functions. Also to edit this file in Markdown. There are surley a lot of ways to program such a project, this is just one example, possibly not the shortest or easiest solution.
+This is a practice project for learning Python and git/ github. It possibly includes string manipulations, handling of list and lists of lists, functions. Also to edit this file in Markdown. There are surely a lot of ways to program such a project, this is just one example, possibly not the shortest or easiest solution.
 
 -----
 
