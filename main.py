@@ -86,7 +86,7 @@ def main():
     global ARRAY
     ARRAY = create_array()
     print("-----------------------------------------")
-    print("             Vigenȩre cipher")
+    print("             Vigenère cipher")
     print("-----------------------------------------\n")
 
     for i in range(0, len(ARRAY)):
