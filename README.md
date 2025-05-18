@@ -11,7 +11,7 @@ This is a practice project for learning Python and git/ github. It possible incl
 The goal is to write a program to encrypt and decrypt messages with the Vigenère cipher. There are certain points to keep in mind:
 - Since you can only encrypt/ decrypt alphabetical characters with the Vigenère-array, the cleartext should be cleaned up from any non-alphabetical characters. Also, convert all the characters into uppcercase characters. 
 - Since the keyword/ keyphrase to use during the encryption should be individual, the program should ask for the keyword/ keyphrase. For the encryption/ decryption process, the keyword need to be as long as the message. So the keyword maybe needs to be repeated, until it reaches the length of the message.
-
+- The same Vigenère-array is needed for encrpytion and decryption, it might be an idea to set it as a global variable.
 
 Example:
 ```
