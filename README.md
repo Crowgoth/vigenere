@@ -2,13 +2,59 @@
 
 Here is the [Wikipedia-Link Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
-This is a practice project for learning Python and git/ github.
+This is a practice project for learning Python and git/ github. It possible includes string manipulations, handling of list and lists of lists, functions. Also to edit this file in Markdown. There are surley a lot of ways to program such a project, this is just one example, possibly not the shortest or easiest solution.
 
 -----
 
-**The goal:**
+**The assignment:**
 
-The goal is to write a program to encyrpt and decrypt messages with the Vigenère cipher. There are certain points to keep in mind:
-- Since only alphabetical characters can be encrypted, the cleartext should be cleaned up fron any non-alphabetical characters. Also, convert all the characters into uppcercase characters. 
-- Since the keyword/ keyphrase to use during the encryption should be individual, the program should ask for the keyword/ keyphrase
+The goal is to write a program to encrypt and decrypt messages with the Vigenère cipher. There are certain points to keep in mind:
+- Since can only encrypt/ decrypt alphabetical characters with the Vigenère-array, the cleartext should be cleaned up fron any non-alphabetical characters. Also, convert all the characters into uppcercase characters. 
+- Since the keyword/ keyphrase to use during the encryption should be individual, the program should ask for the keyword/ keyphrase. For the encryption7 decryption process, teh key need to be as long as the message. So the key needs to be repeated, until it reaches the length of the message.
 
+
+Example:
+```
+-----------------------------------------
+             Vigenȩre cipher
+-----------------------------------------
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+BCDEFGHIJKLMNOPQRSTUVWXYZA
+CDEFGHIJKLMNOPQRSTUVWXYZAB
+DEFGHIJKLMNOPQRSTUVWXYZABC
+EFGHIJKLMNOPQRSTUVWXYZABCD
+FGHIJKLMNOPQRSTUVWXYZABCDE
+GHIJKLMNOPQRSTUVWXYZABCDEF
+HIJKLMNOPQRSTUVWXYZABCDEFG
+IJKLMNOPQRSTUVWXYZABCDEFGH
+JKLMNOPQRSTUVWXYZABCDEFGHI
+KLMNOPQRSTUVWXYZABCDEFGHIJ
+LMNOPQRSTUVWXYZABCDEFGHIJK
+MNOPQRSTUVWXYZABCDEFGHIJKL
+NOPQRSTUVWXYZABCDEFGHIJKLM
+OPQRSTUVWXYZABCDEFGHIJKLMN
+PQRSTUVWXYZABCDEFGHIJKLMNO
+QRSTUVWXYZABCDEFGHIJKLMNOP
+RSTUVWXYZABCDEFGHIJKLMNOPQ
+STUVWXYZABCDEFGHIJKLMNOPQR
+TUVWXYZABCDEFGHIJKLMNOPQRS
+UVWXYZABCDEFGHIJKLMNOPQRST
+VWXYZABCDEFGHIJKLMNOPQRSTU
+WXYZABCDEFGHIJKLMNOPQRSTUV
+XYZABCDEFGHIJKLMNOPQRSTUVW
+YZABCDEFGHIJKLMNOPQRSTUVWX
+ZABCDEFGHIJKLMNOPQRSTUVWXY
+
+
+Do you want to (e)ncrypt of (d)ecrypt a message? e
+
+Please enter the String that should be used as a key: Secretkey
+Please enter your message now: Weather is good, attack at dawn.
+
+
+Cleaned key:       SECRETKEYSECRETKEYSECRETK
+Cleaned message:   WEATHERISGOODATTACKATDAWN
+===================
+Processed message: OICKLXBMQYSQUEMDEACEVUEPX
+```
